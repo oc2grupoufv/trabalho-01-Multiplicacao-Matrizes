@@ -1,5 +1,12 @@
 
-# Trabalho 01 
+# Trabalho 01 Multiplicacao Matrizes
+
+##Integrantes:
+Henrique
+Denis
+Mayke
+Igor
+Gelmer
 
 A esplicacao do trbalho esta neste link:
 
