@@ -1,6 +1,6 @@
 
 # Trabalho 01 
-## Organização de Computadores 2 - Multiplicação de Matrizes
 
+A esplicacao do trbalho esta neste link:
 
-## Introdução
+https://docs.google.com/document/d/1Lb59kcDhwk3A4Npjm12NS7SqwLgj8rZLXQW3EMYnzzY/edit?usp=sharing
