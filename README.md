@@ -1,5 +1,5 @@
 
-# Trabalho 01 Multiplicacao Matrizes
+# Trabalho 01 Multiplicação de Matrizes
 
 ## Integrantes:
 Henrique, Denis, Mayke, Igor, Gelmer  
