@@ -2,11 +2,7 @@
 # Trabalho 01 Multiplicacao Matrizes
 
 ## Integrantes:
-Henrique  
-Denis 
-Mayke 
-Igor  
-Gelmer  
+Henrique, Denis, Mayke, Igor, Gelmer  
 
 A explicacao do trabalho esta neste link:
 
