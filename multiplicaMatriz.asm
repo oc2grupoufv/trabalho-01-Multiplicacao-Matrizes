@@ -1,19 +1,22 @@
-lw $r1, 0($r4)
-lw $r2, 4 ($r4)
-lw $r3, 8 ($r4)
+addi $k1,$k1,3 #TAMANHO DA MATRIZ
 
-add $r1, $r1, $r1
-add $r2, $r2, $r2
-add $r3, $r3, $r3
-add $r1, $r1, $r2
-add $r1, $r1, $r3
+loop: lw $at,0($gp) 
+lw $v0,4($gp)
+lw $v1,8($gp) 
 
-sw $r1,40($r4)
-sw $r1,44($r4)
-sw $r1,48($r4)
+add $at,$at,$at
+add $v0,$v0,$v0
+add $v1,$v1,$v1
+add $at,$at,$v0
+add $at,$at,$v1
 
-addi $r4, $r4, 12
-addi $r0, $r0, -1
+sw $at,40($gp)
+sw $at,44($gp)
+sw $at,48($gp)
 
-beq $r0, $r5, 1
-j -52 
+addi $gp,$gp,12
+
+addi $k1,$k1,-1
+beq $k1, $zero, fim
+jal loop
+fim:
